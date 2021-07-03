@@ -23,6 +23,7 @@ class DescriptionPlace extends StatelessWidget
         textoTitulo,
         style: TextStyle
         (
+          fontFamily: "Lato",
           fontSize: 38,
           fontWeight: FontWeight.bold
         ),
@@ -66,7 +67,6 @@ class DescriptionPlace extends StatelessWidget
       {
         estrellas.add(estrellaBorde);
       }
-      
     }
 
     final filaEstrellas = Row
@@ -93,6 +93,7 @@ class DescriptionPlace extends StatelessWidget
         textoDescripcion,
         style: TextStyle
       (
+          fontFamily: "Lato",
           color: Colors.black54
       ),
       ),
