@@ -22,13 +22,13 @@ class MyHome extends StatelessWidget
       (
       margin: EdgeInsets.only
         (
-          top: 250,
+          top: 300,
           left: 30,
           right: 30
       ),
       height: 80,
 
-      child: Review("assets/images/persona 1.jpg","Laura Leon", "1 reviews - 4 photos", 2, "Muy buen lugar para visitar ")
+      child: Review("assets/images/persona1.jpg","Laura Leon", "1 reviews - 4 photos", 2, "Muy buen lugar para visitar ")
     );
 
 

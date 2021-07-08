@@ -103,8 +103,10 @@ class DescriptionPlace extends StatelessWidget
     (
       children: <Widget>
       [
-
+        filaTitulo,
+        descripcion
       ],
     );
+    return description_places;
   }
 }

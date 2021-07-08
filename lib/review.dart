@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flutter/material.dart';
 
 class Review extends StatelessWidget
@@ -17,7 +15,7 @@ class Review extends StatelessWidget
   @override
   Widget build(BuildContext context)
   {
-
+    //foto
     final foto = Container
     (
       margin: EdgeInsets.only
@@ -163,7 +161,8 @@ class Review extends StatelessWidget
     (
       children: <Widget>
       [
-        foto
+        foto,
+        columnReview
       ],
     );
 
