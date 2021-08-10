@@ -82,3 +82,7 @@ flutter:
 
   assets:
     - assets/images/persona1.jpg
+    - assets/images/persona2.jpg
+    - assets/images/persona3.jpg
+    - assets/images/persona4.jpg
+    - assets/images/persona5.jpg
