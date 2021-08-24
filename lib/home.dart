@@ -15,7 +15,7 @@ class MyHome extends StatelessWidget
       (
       margin: EdgeInsets.only
         (
-          top: 50,
+          top: 300,
           left: 30,
           right: 30
       ),
@@ -51,8 +51,11 @@ class MyHome extends StatelessWidget
         (
         children: <Widget>
         [
-          CardImage("assets/images/lugar1.jpg")
-          //HomeAppBar("Popular")
+          listView,
+          HomeAppBar
+          (
+            "Popular"
+          ) //HomeAppBar("Popular")
         ],
       ),
     );
